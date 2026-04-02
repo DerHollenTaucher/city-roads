@@ -1,10 +1,37 @@
-small-screen = 450px;
-desktop-controls-width = 442px;
-labels-font = 'Roboto', sans-serif;
+body {
+  background: linear-gradient(120deg, #dadcb8 0%, #78c09c 100%);
+  color: #222;
+  font-family: 'IBM Plex Mono', 'VT323', monospace;
+}
 
-highlight-color = #ff4081;
-primary-text = rgb(33, 33, 33);
-secondary-color = rgba(0,0,0,.54);
-emphasis-background = white;
-background-color = #F7F2E8;
-border-color = #E9EAED;
+/* Classic retro panel for UI blocks */
+.retro-panel {
+  background: #181826d9;
+  border: 1.5px solid #8cff6f;
+  box-shadow: 0 3px 30px #23232366, 0 1px 0 #cbe2b066;
+  border-radius: 10px;
+  padding: 1.5em 2em;
+  margin: 2em auto;
+}
+
+/* Retro buttons */
+button, .retro-btn {
+  font-family: 'VT323', 'IBM Plex Mono', monospace;
+  background: #d2ffe8;
+  color: #203f25;
+  border: 2px solid #8cff6f;
+  border-radius: 7px;
+  padding: 0.4em 1.7em;
+  box-shadow: 0 2px 0 #97ffb5;
+  font-size: 1.2em;
+}
+
+button:active, .retro-btn:active {
+  background: #82bfa4;
+}
+
+/* Font sample picker */
+.font-sample {
+  padding-left: 0.5em;
+  font-size: 1em;
+}
